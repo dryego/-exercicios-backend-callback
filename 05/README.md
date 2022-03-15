@@ -4,13 +4,13 @@
 
 ## Timer 2.0
 
-Agora vamos melhorar o nosso timer da questão anterior! E para isso vamos implementar a função `soneca`.
+Agora vamos melhorar o nosso timer da questão anterior! E para isso vamos implementar a função soneca.
 
 Logo após iniciar, o seu programa deverá imprimir na tela uma mensagem de início do timer: "`Timer iniciado, disparando alarme em X segundos!`". Note que `X` corresponde ao tempo em que o seu programa irá aguardar para enfim despertar.
 
 O seu programa deverá aguardar o tempo em segundos especificado na variável `tempoParaAlarmarEmSegundos`, só então irá despertar mostrando repetidamente a mensagem "`Beep beep!`", uma mensagem a cada segundo, até que o tempo da variável `tempoAlarmandoEmSegundos` se esgote.
 
-Após o fim do despertar o seu programa deverá imprimir em tela a mensagem `"Soneca ativada, próximo alarme em 10 segundos"` e em seguida entrar em modo `soneca` pelo tempo determinado na variável `tempoSonecaEmSegundos`, passado este tempo o seu programa deverá despertar novamente e assim sucessivamente até que se cumpram o número de sonecas definido na variável `numeroDeSonecas`.
+Após o fim do despertar o seu programa deverá imprimir em tela a mensagem `"Soneca ativada, próximo alarme em 10 segundos"` e em seguida entrar em modo soneca pelo tempo determinado na variável `tempoSonecaEmSegundos`, passado este tempo o seu programa deverá despertar novamente e assim sucessivamente até que se cumpram o número de sonecas definido na variável `numeroDeSonecas`.
 
 Por fim, o programa é finalizado.
 
