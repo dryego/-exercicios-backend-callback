@@ -47,7 +47,7 @@ Beep beep!
 Fim do Timer!
 ```
 
-Fique a vontade parar criar outras variáveis ou constantes caso julgue necessário.
+Fique a vontade para criar outras variáveis ou constantes caso julgue necessário.
 
 Dica: Utilizar `setTimeout()`, `setInterval()`.
 
