@@ -12,7 +12,7 @@ O seu programa deverá aguardar o tempo em segundos especificado na variável `t
 
 Após o fim do despertar o seu programa deverá imprimir em tela a mensagem `"Soneca ativada, próximo alarme em X segundos"`, onde `X` corresponde ao tempo em que o seu programa permanecerá em modo soneca e é determinado pela variável `tempoSonecaEmSegundos`, passado este tempo o seu programa deverá despertar novamente e assim sucessivamente até que se cumpram o número de sonecas definido na variável `numeroDeSonecas`.
 
-Por fim, o programa é finalizado.
+Por fim, é necessário imprimir na tela a mensagem `Fim do Timer!` e o programa é finalizado.
 
 Exemplo:
 
