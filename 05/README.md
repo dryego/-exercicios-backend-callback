@@ -10,7 +10,7 @@ Logo após iniciar, o seu programa deverá imprimir na tela uma mensagem de iní
 
 O seu programa deverá aguardar o tempo em segundos especificado na variável `tempoParaAlarmarEmSegundos`, só então irá despertar mostrando repetidamente a mensagem "`Beep beep!`", uma mensagem a cada segundo, até que o tempo da variável `tempoAlarmandoEmSegundos` se esgote.
 
-Após o fim do despertar o seu programa deverá entrar em modo `soneca` pelo tempo determinado na variável `tempoSonecaEmSegundos`, passado este tempo o seu programa deverá despertar novamente e assim sucessivamente até que se cumpram o número de sonecas definido na variável `numeroDeSonecas`.
+Após o fim do despertar o seu programa deverá imprimir em tela a mensagem `Soneca ativada, próximo alarme em 10 segundos` e em seguida entrar em modo `soneca` pelo tempo determinado na variável `tempoSonecaEmSegundos`, passado este tempo o seu programa deverá despertar novamente e assim sucessivamente até que se cumpram o número de sonecas definido na variável `numeroDeSonecas`.
 
 Por fim, o programa é finalizado.
 
