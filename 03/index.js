@@ -1,20 +1,21 @@
 const jogadores = ["Guido", "Dani", "Ruli", "Diego", "Vidal"];
-const tempoRodada = (10 / jogadores.length) * 1000;
+const tempoRodada = (10 / jogadores.length);
 
-const participantes = (jogadores) => {
+console.log(`Cada jogador tera ${tempoRodada} segundos para fazer sua jogada.`)
 
-    const jogador = () => {
-        let nome = "";
-        for (let busca of jogadores) {
-            nome = busca;
-            console.log(nome);
-        }
-        //clearInterval(delay);
-
-        console.log("Fim da rodada");
-
-    }
-    const delay = setInterval(jogador, tempoRodada);
+let contagem = 0;
+const exibirJogador = (jogador) => {
+    let nome = jogador[contagem];
+    contagem++;
+    console.log(nome);
 }
 
-participantes(jogadores);
+const tempo = setInterval(() => {
+    exibirJogador(jogadores);
+    if (contagem === jogadores.length) {
+        clearInterval(tempo);
+        console.log("Fim da rodada.");
+    }
+}, tempoRodada * 1000);
+
+exibirJogador(jogadores);
